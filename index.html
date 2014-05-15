@@ -38,8 +38,8 @@ form {
 
 .node {
     border: solid 1px white;
-    font: 10px sans-serif;
-    line-height: 12px;
+    font: 15px sans-serif;
+    line-height: 17px;
     overflow: hidden;
     position: absolute;
     text-indent: 2px;
@@ -71,7 +71,7 @@ Gesundheit und in Zusammenarbeit mit dem Bundesamt für Sport verwaltet wird.
     <label><input data-src="daten_alleprojekte.json" type="radio" name="mode" value="size"> Alle Projekte</label>
 <label><input data-src="daten_top10.json" type="radio" name="mode" value="size" > Top 10 Projekte</label>   
 </form>
-<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="d3/d3.min.js"></script>
 <script>
 
 var margin = {top: 50, right: 50, bottom: 50, left: 50},
@@ -103,7 +103,7 @@ function loaddata(filename) {
                 .attr("class", "node")
                 .call(position)
                 .style("background", function(d) { return d.children ? color(d.name) : null; })
-                .text(function(d) { return d.children ? null : d.name; });
+                .text(function(d) { return d.children ? null : d.name + " (" + d.size + " CHF ) "; });
         
             node.exit().remove();
                   
@@ -112,7 +112,7 @@ function loaddata(filename) {
                 .data(treemap.value(value).nodes)
                 .transition()
                 .duration(1500)
-                .text(function(d) { return d.children ? null : d.name; })
+                .text(function(d) { return d.children ? null : d.name + " (" + d.size + " CHF ) "; })
                 .call(position);
         
           });
