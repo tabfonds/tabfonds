@@ -2,69 +2,69 @@
     "name": "Settings",
     "children": 
  [
-      {
-        "name":"Schule",
-        "size":12545483
-      },
-      {
-        "name":"Sport",
-        "size":55723280
-      },
-      {
-        "name":"Arbeitsplatz",
-        "size":10911263
-      },
-      {
-        "name":"Freizeit",
-        "size":4755737
-      },
-      {
-        "name":"Beratung",
-        "size":7559518
-      },
-      {
-        "name":"Internet",
-        "size":4010473
-      },
-      {
-        "name":"Bildungseinrichtungen",
-        "size":20288704
-      },
-      {
-        "name":"Ambulanter Dienst, Praxis",
-        "size":992343
-      },
-      {
-        "name":"Spital",
-        "size":1014602
-      },
-      {
-        "name":"Heim, Gefängnis",
-        "size":280000
-      },
-      {
-        "name":"Familie",
-        "size":1320358
-      },
-      {
-        "name":"Tagung, Konferenz",
-        "size":2066302
-      },
-      {
-        "name":"Medien, Massenmedien",
-        "size":41878765
-      },
-      {
-        "name":"Tabakpräventionsgemeinschaft",
-        "size":8306916
-      },
-      {
-        "name":"Kantone, Gemeinden",
-        "size":14558494
-      },
-      {
-        "name":"kein Setting",
-        "size":12444921
-      }
- ]
+  {
+    "name":"Ambulanter Dienst, Praxis",
+    "size":955343
+  },
+  {
+    "name":"Arbeitsplatz",
+    "size":10911263
+  },
+  {
+    "name":"Beratung",
+    "size":7562684.66666667
+  },
+  {
+    "name":"Bildungseinrichtungen",
+    "size":20304037.3333333
+  },
+  {
+    "name":"Familie",
+    "size":1320358
+  },
+  {
+    "name":"Freizeit",
+    "size":6843787
+  },
+  {
+    "name":"Heim, Gefängnis",
+    "size":280000
+  },
+  {
+    "name":"Internet",
+    "size":4010473
+  },
+  {
+    "name":"Kantone, Gemeinden",
+    "size":14558494
+  },
+  {
+    "name":"kein Setting",
+    "size":12444921
+  },
+  {
+    "name":"Medien, Massenmedien",
+    "size":41878765
+  },
+  {
+    "name":"Schule",
+    "size":12545483
+  },
+  {
+    "name":"Spital",
+    "size":1033102
+  },
+  {
+    "name":"Sport",
+    "size":53635230
+  },
+  {
+    "name":"Tabakpräventionsgemeinschaft",
+    "size":8306916
+  },
+  {
+    "name":"Tagung, Konferenz",
+    "size":2066302
+  }
+]
 }
