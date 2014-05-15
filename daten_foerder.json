@@ -1,0 +1,34 @@
+{
+    "name": "Förderbereiche",
+    "children": 
+ [
+      {
+        "name":"Verhinderung des Einstiegs",
+        "size":74686560
+      },
+      {
+        "name":"Förderung des Ausstiegs",
+        "size":36955984
+      },
+      {
+        "name":"Schutz vor Passivrauchen",
+        "size":6061209
+      },
+      {
+        "name":"Sensibilisierung und Info Öffentlichkeit",
+        "size":49461435
+      },
+      {
+        "name":"Förderung Forschung",
+        "size":13109539
+      },
+      {
+        "name":"präventionsunterstützender Rahmenbedingungen",
+        "size":5165483
+      },
+      {
+        "name":"Kantonales Programm",
+        "size":13216949
+      }
+ ]
+}
