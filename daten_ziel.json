@@ -1,0 +1,46 @@
+{
+    "name": "Zielgruppen",
+    "children": 
+ [
+      {
+        "name":"Kinder und Jugendliche",
+        "size":42442143
+      },
+      {
+        "name":"Frauen",
+        "size":1388399
+      },
+      {
+        "name":"Männer",
+        "size":1204971
+      },
+      {
+        "name":"Migranten",
+        "size":7918457
+      },
+      {
+        "name":"Eltern",
+        "size":247216
+      },
+      {
+        "name":"Arbeitnehmer",
+        "size":10576784
+      },
+      {
+        "name":"Gesundheitsfachleute",
+        "size":21345434
+      },
+      {
+        "name":"Tabakpräventionsfachleute",
+        "size":7739929
+      },
+     {
+        "name":"Patienten",
+        "size":1095749
+      },
+     {
+        "name":"Andere",
+        "size":104698077
+      }
+ ]
+}
