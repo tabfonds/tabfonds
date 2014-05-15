@@ -1,0 +1,46 @@
+{
+    "name": "Top 10 Projekte",
+    "children": 
+ [
+      {
+        "name":"Nationales Rauchstopp-Programm",
+        "size":9753180
+      },
+      {
+        "name":"Unternehmen rauchfrei",
+        "size":4803180
+      },
+      {
+        "name":"BRAVO - Weniger Rauch, mehr Leben",
+        "size":7100000
+      },
+      {
+        "name":"TMS - Umfrage Tabakkonsum",
+        "size":4692959
+      },
+      {
+        "name":"Cool and Clean 06/07",
+        "size":8500000
+      },
+      {
+        "name":"Cool and Clean 09/12",
+        "size":11450000
+      },
+      {
+        "name":"Cool and Clean 05",
+        "size":5000000
+      },
+     {
+        "name":"SmokeFree - keine Zigarette ist besser",
+        "size":5000000
+      },
+     {
+        "name":"Cool and Clean 13/16",
+        "size":16602680
+      },
+     {
+        "name":"NPT - Smoke Free",
+        "size":9000000
+     } 
+ ]
+}
