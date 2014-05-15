@@ -1,0 +1,33 @@
+{
+    "name": "Sprachregionen",
+    "children": 
+    [
+          {
+            "name":"Deutschschweiz",
+            "size":59680374
+          },
+
+          {
+            "name":"Westschweiz",
+            "size":19692141
+          },
+
+
+          {
+            "name":"Deutsch-Französisch",
+            "size":25015109
+          },
+
+          {
+            "name":"Schweiz",
+            "size":93177935
+          },
+
+          {
+            "name":"Tessin",
+            "size":1091600
+          }
+    ]
+}
+
+
