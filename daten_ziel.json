@@ -4,11 +4,11 @@
  [
       {
         "name":"Kinder und Jugendliche",
-        "size":42442143
+        "size":46329803
       },
       {
         "name":"Frauen",
-        "size":1388399
+        "size":1464497
       },
       {
         "name":"Männer",
@@ -16,11 +16,11 @@
       },
       {
         "name":"Migranten",
-        "size":7918457
+        "size":4754657
       },
       {
         "name":"Eltern",
-        "size":247216
+        "size":852395
       },
       {
         "name":"Arbeitnehmer",
@@ -28,11 +28,11 @@
       },
       {
         "name":"Gesundheitsfachleute",
-        "size":21345434
+        "size":18609660
       },
       {
         "name":"Tabakpräventionsfachleute",
-        "size":7739929
+        "size":8902905
       },
      {
         "name":"Patienten",
@@ -40,7 +40,7 @@
       },
      {
         "name":"Andere",
-        "size":104698077
+        "size":104865740
       }
  ]
 }
