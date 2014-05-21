@@ -11,11 +11,24 @@ h1 {
     font-size: 300%;
     text-align: center;
 }
+    
+h2 {
+    font-family: "Helvetica";
+    font-size: 150%;
+    text-align: center;
+}
 
 p {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+    
+ol {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+    
 /*scrollbar ausblenden*/
 ::-webkit-scrollbar {
     display: none;
@@ -45,7 +58,7 @@ form {
     text-indent: 2px;
 }
 
-    #tooltip {
+#tooltip {
   position: absolute;
   width: 220px;
   height: auto;
@@ -78,19 +91,18 @@ form {
 <body>
 <h1>Tabakprävention</h1>
 <p>
-Am 21. März 2003 ergänzte das Parlament das Bundesgesetz über die Tabakbesteuerung
-(SR 641.31) um einen Passus, der die Abgabe von 0.13 Rappen
-pro in der Schweiz verkaufte Zigarette vorsieht.<br> Mit dieser Abgabe sollte ein Sonderfonds
-zur Förderung der Tabakprävention gespiesen werden.<br>
-Am 1. August 2003 trat der neu eingefügte Art. 28 Abs. 2 Bst. c des Bundesgesetzes
-vom 21. März 1969 über die Tabakbesteuerung in Kraft. Diese Gesetzesergänzung
-verpflichtet die Hersteller und Importeure von Zigaretten zu einer Abgabe
-in einen Tabakpräventionsfonds (TPF).<br> Sie legt zugleich fest, dass der
-Fonds von einer Präventionsorganisation unter Aufsicht des Bundesamtes für
-Gesundheit und in Zusammenarbeit mit dem Bundesamt für Sport verwaltet wird.
+Der Tabakpräventionsfonds (TBF) besteht seit 2004 und feiert in diesem Jahr sein 10-jähriges Jubiläum. Pro verkauftes Päckli Zigaretten fliessen 2,6 Rappen in diesen Fonds zur Finanzierung von Präventionsmassnahmen, die effizient und nachhaltig zur Verminderung des Tabakkonsums beitragen.<br>
+Der Fonds hat pro Jahr rund 15 Mio. Franken zur Förderung von Projekten zur Verfügung.<br>
+Mit einer entsprechenden Visualisierung sollen die Daten der letzten 10 Jahre aufbereitet werden (by Nicolas Camenzind und Patrick Neidhart).<br>
 </p>
 
-
+<h2>Auswahl Projektview</h2>
+<p>
+Sämtlichen Projekten des TBF wurden Information über Sprachregionen, Förderbereiche, Zielgruppen sowie Settings zugeordnet.<br>
+So können die Projektfördermittel nach unterschiedlichen Sichtweisen aggregiert dargestellt werden. Zusätzlich lassen sich alle Projekte einzeln sowie die Top 10 Projekte einblenden.<br>
+Nach einem Klick auf den entsprechenden Button erscheint die gewünschte Projektview.
+</p>
+    
 <form>
     <label><input data-src="daten_sprachregion.json" type="radio" name="mode" value="size" > Sprachregionen</label>
     <label><input data-src="daten_foerder.json" type="radio" name="mode" value="size"> Förderbereiche</label>
@@ -175,7 +187,10 @@ var mousemove = function(d) {
     .text(d.name || d.titel_de);
   d3.select("#tooltip #revenue")
     .text((d.size).toLocaleString() + " CHF");
+  //d3.select("#tooltip #percentage")
+    //.text(d.traegerschaft_de);
   d3.select("#tooltip").classed("hidden", false);
+
 };
 
 
@@ -187,4 +202,23 @@ var mousemove = function(d) {
     <p><span id="revenue"></span></p>
     </div>
     
+    
+<h2>Dokumentation</h2>
+<p>
+    Quelle der Daten:<br>
+    Bundestamt für Gesundheit, Tabakpräventionsfond (Excel)<br>
+    <br>
+    Ablage:<br>
+    Datein in html sowie json sind auf github.io sowie der sandbox.iwi.unibe.ch abgelegt<br>
+    <br>
+    Vorgehen:<br>
+    <ol>
+        <li>Konzeption</li>
+        <li>Datenbereinigung der Quelldaten</li>
+        <li>Datenübernahme in Format csv und json</li>
+        <li>Code Snipping mit d3.js, Treemap (Test und Echtdaten)</li>
+        <li>Fehlerbehebung und Feinschliff</li>
+    </ol>
+</p>
+
 </body>
